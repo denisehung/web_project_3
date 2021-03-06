@@ -1,0 +1,33 @@
+.cover__background {
+  background-image: url("../../../images/cover-route-66.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0);
+  width: 90%;
+  padding-bottom: 56%;
+  margin: 0 auto;
+  position: relative;
+  transition: background-color 0.7s ease;
+  cursor: pointer;
+}
+
+.cover__background:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+.cover__background:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: inherit;
+  content: " ";
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    width: 100%;
+  }
+}

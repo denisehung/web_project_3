@@ -1,0 +1,17 @@
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_status/header__lang-link_status_active.css);
+
+.header {
+  width: 80%;
+  padding-top: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 90%;
+  }
+}
