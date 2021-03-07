@@ -3,5 +3,14 @@
   font-size: 18px;
   line-height: 22px;
   margin-top: 20px;
-  display: inline-block;
+  text-decoration: none;
+  /* prevents link from stretching horizontally so 
+  I can add a border-bottom for transition on hover */
+  align-self: flex-start;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  transition: border-bottom 0.5s ease;
+}
+
+.place__website-link:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
