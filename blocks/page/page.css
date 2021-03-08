@@ -4,7 +4,6 @@
   font-family: "Inter", sans-serif;
   margin: 0 auto;
   max-width: 1280px;
-  overflow-x: hidden;
   /* Font smoothing */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

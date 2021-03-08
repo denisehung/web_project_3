@@ -12,5 +12,13 @@
 @media (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
+    line-height: 26.08px;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__paragraph {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

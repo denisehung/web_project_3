@@ -1,18 +1,27 @@
+@import url(./__column/footer__column.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 
 .footer {
   padding-top: 92px;
   padding-bottom: 24px;
   display: flex;
-  width: 90%;
+  width: calc(100% - 96px);
   margin: 0 auto;
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 88px;
+    width: calc(100% - 48px);
+  }
+}
+
 @media (max-width: 425px) {
   .footer {
-    display: block;
+    flex-direction: column;
     padding-top: 64px;
   }
 }

@@ -3,11 +3,25 @@
   font-weight: 900;
   line-height: 76px;
   margin: 0;
+  /* The alignment issue between the title and website-link seems to be caused by the line-height of the title. 
+  Therefore even adding 'align-self: flex-end' doesn't work here. In the Figma design you can see both items
+  aren't evenly aligned either. So I think the only option to solve the issue is by changing the line-height of 
+  either the title or website-link  */
+  align-self: flex-end;
 }
 
 @media (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

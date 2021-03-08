@@ -1,0 +1,8 @@
+BLOCKS
+- cover
+- footer
+- header
+- page DONE
+- place DONE
+index.html
+

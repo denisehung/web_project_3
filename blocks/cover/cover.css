@@ -1,4 +1,56 @@
 @import url(./__background/cover__background.css);
+@import url(./__link/cover__link.css);
 @import url(./__text/cover__text.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
+
+.cover {
+  background-image: url("../../images/cover-route-66.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  position: relative;
+  transition: background-color 0.7s ease;
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  padding-top: 24%;
+  padding-bottom: 24%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+.cover:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: inherit;
+  content: "";
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    padding-top: 21.35%;
+    padding-bottom: 21.35%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cover {
+    padding-top: 18.28%;
+    padding-bottom: 18.28%;
+  }
+}

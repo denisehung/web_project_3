@@ -1,25 +1,29 @@
 .places {
   padding-top: 92px;
   padding-bottom: 92px;
-  width: 80%;
+  width: calc(100% - 296px);
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    width: 90%;
+    width: calc(100% - 96px);
+    padding-top: 88px;
+    padding-bottom: 88px;
   }
 }
 
 @media (max-width: 768px) {
   .places {
-    width: 95%;
+    width: calc(100% - 48px);
     padding-top: 88px;
   }
 }
 
 @media (max-width: 425px) {
   .places {
-    padding-bottom: 65px;
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 }
