@@ -4,9 +4,9 @@
 
 This is the third Web Project for the Practicum Web Development bootcamp. The aim of this project was learning how to implement adaptive web design using media queries, which resulted in the responsive web page 'From Portland to Portland' about traveling across the US. The page is based on a design created in Figma and created with only HTML and CSS (Flexbox and Grid). The BEM methodology has been applied to structure both CSS and project files.
 
-[**View live project**](https://denisehung.github.io/web_project_3/) :rocket:
-
 [Figma design file](https://www.figma.com/file/tGVujMSkus12HlSw9fbcLe/Sprint-3_-From-Portland-to-Portland-_-desktop-%2B-mobile?node-id=0%3A1)
+
+## [**View live project**](https://denisehung.github.io/web_project_3/) :rocket:
 
 ## Technologies
 
