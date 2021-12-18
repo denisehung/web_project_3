@@ -1,4 +1,9 @@
 .lead__image-container {
-  margin: 0;
-  padding: 0;
+  background-image: url(../../../images/lead-mountains.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 105% 0%;
+  margin: 0 auto;
+  padding-bottom: 62.5%;
 }
